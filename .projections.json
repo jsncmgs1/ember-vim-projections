@@ -90,6 +90,10 @@
     "command": "template"
   },
 
+  "app/templates/*.em": {
+    "command": "template"
+  },
+
   "app/utils/*.js": {
     "command": "util"
   },
@@ -110,7 +114,6 @@
   "app/mirage/scenarios/*.js": {
     "command": "scenario"
   },
-
 
   "app/views/*.js": {
     "command": "view",
