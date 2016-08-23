@@ -1,4 +1,10 @@
 {
+  "app/serializers/*.js": {
+    "command": "serializer",
+    "template": [
+      "// export default {capitalize}Serializer.extend();",
+    ]
+  },
   "app/adapters/*.js": {
     "command": "adapter",
     "template": [
