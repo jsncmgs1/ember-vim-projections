@@ -84,6 +84,16 @@
 
   },
 
+  "app/services/*.js": {
+    "command": "service",
+    "template": [
+      "import Ember from 'ember';",
+      "export default Ember.Service.extend({",
+      "",
+      "});",
+    ]
+  },
+
   "app/styles/*.scss": {
     "command": "style",
     "template": [
