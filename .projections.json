@@ -8,7 +8,7 @@
   "app/adapters/*.js": {
     "command": "adapter",
     "template": [
-      "// export default DS.{capitalize}Adapter.extend();",
+      "// export default {capitalize}Adapter.extend();",
     ]
   },
 
@@ -62,8 +62,8 @@
   "app/models/*.js": {
     "command": "model",
     "template": [
-      "import DS from 'ember-data'",
-      "export default DS.Model.extend({",
+      "import { Model, attr } from 'ember-data'",
+      "export default Model.extend({",
       "",
       "});",
     ]
