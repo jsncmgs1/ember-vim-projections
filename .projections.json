@@ -5,6 +5,7 @@
       "// export default {capitalize}Serializer.extend();",
     ]
   },
+
   "app/adapters/*.js": {
     "command": "adapter",
     "template": [
@@ -129,6 +130,16 @@
 
   "app/mirage/scenarios/*.js": {
     "command": "scenario"
+  },
+
+  "app/mixins/*.js": {
+    "command": "mixin",
+    "template": [
+      "import Ember from 'ember';",
+      "export default Ember.Mixin.create({",
+      "",
+      "});",
+    ]
   },
 
   "app/views/*.js": {
